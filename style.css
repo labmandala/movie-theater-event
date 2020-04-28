@@ -42,7 +42,7 @@ body {
 }
 
 .info__details {
-  margin: 12px 0 0;
+  margin: 24px 0 0;
 }
 
 .info__details__item i {
@@ -104,6 +104,23 @@ body {
 
 .banner {
   display: grid;
+}
+
+.info__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info__details__item {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 640px) {
